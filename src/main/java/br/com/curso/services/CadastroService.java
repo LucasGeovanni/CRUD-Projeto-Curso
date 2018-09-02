@@ -19,7 +19,7 @@ import br.com.curso.repositories.NotaRepository;
 import br.com.curso.repositories.ProfessorRepository;
 
 @Service
-public class CadastroService {
+public class CadastroService implements ICadastroService {
 
 	@Autowired
 	private AlunoRepository _alunosRepository;

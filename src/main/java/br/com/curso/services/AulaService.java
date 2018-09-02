@@ -17,7 +17,7 @@ import br.com.curso.repositories.AulaRepository;
 import br.com.curso.repositories.ProfessorRepository;
 
 @Service
-public class AulaService {
+public class AulaService implements IAulaService{
 
 	@Autowired
 	private AlunoRepository _alunosRepository;
